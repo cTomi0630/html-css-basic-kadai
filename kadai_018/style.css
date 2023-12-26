@@ -21,17 +21,20 @@
   height: 200px;
   background-color: #87ceeb;
 }
-#middle #middle-child01{
+/* 変更 id指定見直し */
+#middle-child01 {
   position: absolute;
   top: 100px;
   left: 100px;
 }
-#middle #middle-child02{
+/* 変更 id指定見直し */
+#middle-child02 {
   position: absolute;
   top: 300px;
   left: 300px;
 }
-#middle #middle-child03{
+/* 変更 id指定見直し */
+#middle-child03 {
   position: absolute;
   top: 500px;
   left: 500px;
@@ -54,4 +57,8 @@
   position: relative;
   left: 400px;
 }
-
+/* 追加　中央寄せ */
+#top, #middle, #bottom {
+  margin-left: auto;
+  margin-right: auto;
+}
