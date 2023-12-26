@@ -1,0 +1,25 @@
+html {
+  font-size: 20px;
+}
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2.4rem;
+  text-shadow: 3px 3px 3px gray;
+  border-bottom: solid 3px rgb(115, 115, 114);
+}
+.color_sky {
+  color: skyblue;
+}
+.color_rgd_pink {
+  color: rgb(255, 192, 203);
+}
+#basic p{
+  font-weight: bold;
+}
